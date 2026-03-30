@@ -64,7 +64,7 @@
     "jest-cucumber": "3.0.1",
     "jest-environment-jsdom": "29.7.0",
     "lint-staged": "15.0.2",
-    "mini-css-extract-plugin": "2.7.6",
+    "mini-css-extract-plugin": "2.10.2",
     "msw": "1.3.2",
     "node-sass": "9.0.0",
     "prettier": "3.0.3",
