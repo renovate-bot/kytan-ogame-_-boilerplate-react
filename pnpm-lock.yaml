@@ -146,8 +146,8 @@ devDependencies:
     specifier: 6.2.0
     version: 6.2.0(webpack@5.89.0)
   html-webpack-plugin:
-    specifier: 5.5.3
-    version: 5.5.3(webpack@5.89.0)
+    specifier: 5.6.8
+    version: 5.6.8(webpack@5.89.0)
   husky:
     specifier: 8.0.3
     version: 8.0.3
@@ -6798,11 +6798,17 @@ packages:
       void-elements: 3.1.0
     dev: false
 
-  /html-webpack-plugin@5.5.3(webpack@5.89.0):
-    resolution: {integrity: sha512-6YrDKTuqaP/TquFH7h4srYWsZx+x6k6+FbsTm0ziCwGHDP78Unr1r9F/H4+sGmMbX08GQcJ+K64x55b+7VM/jg==}
+  /html-webpack-plugin@5.6.8(webpack@5.89.0):
+    resolution: {integrity: sha512-MZmKQcTnhEh1SPSyMiEytIeDZDUoBZVorNHivQGXMASHf/BSGGOrKa2xQ5bGx3TCe1n109ecCt+cpww7wwWhKA==}
     engines: {node: '>=10.13.0'}
     peerDependencies:
+      '@rspack/core': 0.x || 1.x || 2.x
       webpack: ^5.20.0
+    peerDependenciesMeta:
+      '@rspack/core':
+        optional: true
+      webpack:
+        optional: true
     dependencies:
       '@types/html-minifier-terser': 6.1.0
       html-minifier-terser: 6.1.0
